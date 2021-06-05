@@ -4,6 +4,7 @@
 //class is replaced by classname because of jsx
 import React from 'react'
 const hello = ()=>{
+  
    // return(
     //    <div>
       //  <h1>const from hello</h1>

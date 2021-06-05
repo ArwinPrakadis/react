@@ -1,13 +1,14 @@
 import React from 'react'
 //this is getting the object from the call and replacing with props.object name
-const namepasse = (props)=>
+const nam = ({fname})=>
 {
-   console.log(props)
-    
+   
+    console.log(fname)
     return(
 
         <div>
-            <h1>Your fname {props.name} lname {props.lname}</h1>
+            
+            <h1>Your fname {fname} </h1>
             
             
             
@@ -16,5 +17,8 @@ const namepasse = (props)=>
         
     
 }
+//in class component
+//inorder to remove
+//const{name}=this.props
 
-export default namepasse
+export default nam

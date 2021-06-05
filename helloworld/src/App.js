@@ -6,6 +6,11 @@ import Hello from './components/hello'
 import Namepassed from './components/namepassed';
 import Change from './components/changestate'
 import Counter from './components/counter'
+import Name from './components/destructProps'
+import Funclick from './components/functionclick'
+import Classcl from './components/classclick'
+import Eventbind from './components/eventbind'
+import Pare from './components/parentcom'
 function App() {
   return (
     <div className="App">
@@ -23,6 +28,11 @@ function App() {
     </Namepassed>
     <Hello></Hello>
     <Change></Change>
+    <Name fname='kumar'></Name>
+    <Funclick></Funclick>
+    <Classcl></Classcl>
+    <Eventbind></Eventbind>
+    <Pare></Pare>
     
     </div>
   )

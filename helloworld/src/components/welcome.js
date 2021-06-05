@@ -3,6 +3,7 @@ class Welcome extends Component
 {
     render()
     {
+        
         return <h1>this is welcome class component{this.props.name}</h1>
     }
         
