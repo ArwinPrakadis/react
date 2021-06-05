@@ -4,7 +4,7 @@ import Welcome from './components/welcome'
 //import Nameof from './components/welcome'
 import Hello from './components/hello'
 import Namepassed from './components/namepassed';
-
+import Change from './components/changestate'
 function App() {
   return (
     <div className="App">
@@ -20,6 +20,8 @@ function App() {
        <button>hai</button>
     </Namepassed>
     <Hello></Hello>
+    <Change></Change>
+    
     </div>
   )
 }
