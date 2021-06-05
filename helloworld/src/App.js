@@ -5,10 +5,12 @@ import Welcome from './components/welcome'
 import Hello from './components/hello'
 import Namepassed from './components/namepassed';
 import Change from './components/changestate'
+import Counter from './components/counter'
 function App() {
   return (
     <div className="App">
       <h1>This is App.js</h1>
+      <Counter></Counter>
      <Greet/>
      <Welcome name='class using props'></Welcome>
      {/*<Nameof></Nameof> */}
