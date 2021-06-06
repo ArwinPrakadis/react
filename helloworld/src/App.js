@@ -13,10 +13,16 @@ import Eventbind from './components/eventbind'
 import Pare from './components/parentcom'
 import Login from './components/login'
 import Namelist from './components/namelist'
+import Style from './components/stylesheet'
+import Inline from './components/inline'
+import Form from './components/form'
+
+
 function App() {
   return (
     <div className="App">
       <h1>This is App.js</h1>
+      
       
       <Counter></Counter>
      <Greet/>
@@ -24,7 +30,6 @@ function App() {
      {/*<Nameof></Nameof> */}
      <Namepassed name='arwin nn' lname='prakadis'></Namepassed> {/*passed name is replaced with props.name*/}
      <Namepassed name="example1" lname="hsjsh">
-        <p>this is the text</p>
       </Namepassed> 
      <Namepassed>
     </Namepassed>
@@ -37,6 +42,9 @@ function App() {
     <Pare></Pare>
     <Login></Login>
     <Namelist/>
+    <Style primary={true}/>
+    <Inline></Inline>
+    <Form></Form>
     </div>
   )
 }
