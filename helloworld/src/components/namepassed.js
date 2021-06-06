@@ -13,8 +13,6 @@ const namepasse = (props)=>
             
         </div>
     )
-        
-    
 }
 
 export default namepasse

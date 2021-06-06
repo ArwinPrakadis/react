@@ -11,10 +11,13 @@ import Funclick from './components/functionclick'
 import Classcl from './components/classclick'
 import Eventbind from './components/eventbind'
 import Pare from './components/parentcom'
+import Login from './components/login'
+import Namelist from './components/namelist'
 function App() {
   return (
     <div className="App">
       <h1>This is App.js</h1>
+      
       <Counter></Counter>
      <Greet/>
      <Welcome name='class using props'></Welcome>
@@ -22,9 +25,8 @@ function App() {
      <Namepassed name='arwin nn' lname='prakadis'></Namepassed> {/*passed name is replaced with props.name*/}
      <Namepassed name="example1" lname="hsjsh">
         <p>this is the text</p>
-      </Namepassed> {/*child props*/ }
+      </Namepassed> 
      <Namepassed>
-       <button>hai</button>
     </Namepassed>
     <Hello></Hello>
     <Change></Change>
@@ -33,7 +35,8 @@ function App() {
     <Classcl></Classcl>
     <Eventbind></Eventbind>
     <Pare></Pare>
-    
+    <Login></Login>
+    <Namelist/>
     </div>
   )
 }
