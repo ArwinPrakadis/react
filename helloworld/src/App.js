@@ -18,6 +18,9 @@ import Inline from './components/inline'
 import Form from './components/form'
 import Life from './components/LifecycleA'
 import Pure from './components/purecom'
+import Ref from './components/refdem'
+import Focus from './components/focusInput'
+import Ip from './components/pp'
 
 function App() {
   return (
@@ -48,6 +51,9 @@ function App() {
     <Form></Form>
     <Life/>
     <Pure/>
+    <Ref/>
+    <Focus/>
+    <Ip/>
     </div>
   )
 }
