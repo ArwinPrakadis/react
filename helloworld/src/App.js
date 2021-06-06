@@ -17,7 +17,7 @@ import Style from './components/stylesheet'
 import Inline from './components/inline'
 import Form from './components/form'
 import Life from './components/LifecycleA'
-
+import Pure from './components/purecom'
 
 function App() {
   return (
@@ -47,6 +47,7 @@ function App() {
     <Inline></Inline>
     <Form></Form>
     <Life/>
+    <Pure/>
     </div>
   )
 }

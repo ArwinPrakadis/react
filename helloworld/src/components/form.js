@@ -29,18 +29,23 @@ class form extends Component {
             }
         )
     }
-    andlesub=event=>{
-        {
+    handlesub=event=>{
+        
             alert(`${this.state.message} ${this.state.comment} ${this.state.value}` ) 
             event.preventDefault()
-        }
+       
     }
+    changeMessage()
+    {
+        this.setState({message:this.state.message})
+    }
+    
     
     render() {
         return (
             
             <div>
-                <form onSubmit={this.andlesub}>
+                <form onSubmit={this.handlesub}>
             <h1>Name</h1>
             <input type='text' value={this.state.message} onChange={this.handlename}></input>
             <h1>textarea</h1>
@@ -53,7 +58,10 @@ class form extends Component {
 
             </select>
             <h2>submit now</h2>
-            <button type='submit'>submit</button>
+            
+
+            <h1>{this.state.message}</h1>
+                <button>submit</button>
             </form>
             </div>
         )
