@@ -13,7 +13,6 @@ class form extends Component {
     handlename=event=>{this.setState(
         {
             message:event.target.value
-            
         }
         
     )}
@@ -30,7 +29,7 @@ class form extends Component {
             }
         )
     }
-    handlesub=event=>{
+    andlesub=event=>{
         {
             alert(`${this.state.message} ${this.state.comment} ${this.state.value}` ) 
             event.preventDefault()
@@ -41,7 +40,7 @@ class form extends Component {
         return (
             
             <div>
-                <form onSubmit={this.handlesub}>
+                <form onSubmit={this.andlesub}>
             <h1>Name</h1>
             <input type='text' value={this.state.message} onChange={this.handlename}></input>
             <h1>textarea</h1>

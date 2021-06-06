@@ -16,6 +16,7 @@ import Namelist from './components/namelist'
 import Style from './components/stylesheet'
 import Inline from './components/inline'
 import Form from './components/form'
+import Life from './components/LifecycleA'
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
     <Style primary={true}/>
     <Inline></Inline>
     <Form></Form>
+    <Life/>
     </div>
   )
 }
